@@ -2,8 +2,14 @@ DEPENDENCIES
   homebrew (~> 1.9.0)
   jfw-dotfiles-cookbook
     git: git://github.com/jfwilkus/jfw-dotfiles-cookbook.git
-    revision: b3f7c979ed7dd72c8fc35ecef1346488ee783354
+    revision: 23bc136c17e7395d5c3e7e1560f018b78c95d993
 
 GRAPH
   homebrew (1.9.0)
-  jfw-dotfiles-cookbook (0.1.3)
+  jfw-dotfiles-cookbook (0.1.4)
+    homebrew (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  yum (3.2.2)
+  yum-epel (0.4.0)
+    yum (~> 3.0)
