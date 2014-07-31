@@ -1,0 +1,9 @@
+DEPENDENCIES
+  homebrew (~> 1.9.0)
+  jfw-dotfiles-cookbook
+    git: git://github.com/jfwilkus/jfw-dotfiles-cookbook.git
+    revision: b3f7c979ed7dd72c8fc35ecef1346488ee783354
+
+GRAPH
+  homebrew (1.9.0)
+  jfw-dotfiles-cookbook (0.1.3)
