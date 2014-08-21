@@ -1,17 +1,17 @@
 DEPENDENCIES
   homebrew (~> 1.9.0)
-  jfw-dotfiles-cookbook
-    git: git://github.com/jfwilkus/jfw-dotfiles-cookbook.git
-    revision: 4867a5e47ba40625daa5b092efa1bed1a9b42e71
+  minifu
+    git: git://github.com/jfwilkus/minifu.git
+    revision: b880a59984842143a38c215a3ab1184174bc4696
 
 GRAPH
   homebrew (1.9.0)
-  jfw-dotfiles-cookbook (0.1.13)
+  minifu (0.1.15)
     homebrew (>= 0.0.0)
     omnibus_updater (>= 0.0.0)
     yum (>= 0.0.0)
     yum-epel (>= 0.0.0)
   omnibus_updater (1.0.0)
-  yum (3.2.2)
+  yum (3.2.4)
   yum-epel (0.4.0)
     yum (~> 3.0)

@@ -1,4 +1,4 @@
 source "https://supermarket.getchef.com"
 
-cookbook 'jfw-dotfiles-cookbook', github: 'jfwilkus/jfw-dotfiles-cookbook'
+cookbook 'minifu', github: 'jfwilkus/minifu'
 cookbook 'homebrew', '~> 1.9.0'
